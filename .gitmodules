@@ -1,0 +1,3 @@
+[submodule "extra_modules/neutron"]
+	path = extra_modules/neutron
+	url = git://github.com/stackforge/puppet-neutron
