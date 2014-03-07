@@ -119,6 +119,13 @@ GIT
       puppetlabs/stdlib (>= 2.2.1)
 
 GIT
+  remote: git://github.com/rafaduran/openstack-provision
+  ref: master
+  sha: 0d667431de53db90dd220572bb1295482084958a
+  specs:
+    rafaduran/openstack_provision (0.1.0)
+
+GIT
   remote: git://github.com/saz/puppet-memcached
   ref: master
   sha: 658374848a6d2cf07f0bf714bc34709e9d0ee109
@@ -272,6 +279,7 @@ DEPENDENCIES
   puppetlabs/tempest (>= 0)
   puppetlabs/vcsrepo (>= 0)
   puppetlabs/xinetd (>= 0)
+  rafaduran/openstack_provision (>= 0)
   saz/memcached (>= 0)
   saz/ssh (>= 0)
   saz/sudo (>= 0)

@@ -35,3 +35,4 @@ mod 'duritong/sysctl', :git => 'git://github.com/duritong/puppet-sysctl.git'
 mod 'puppetlabs/inifile', :git => 'git://github.com/puppetlabs/puppetlabs-inifile'
 mod 'enovance/heat', :git => 'git://github.com/packstack/puppet-heat',
     :ref => 'packstack/havana'
+mod 'rafaduran/openstack_provision', :git => 'git://github.com/rafaduran/openstack-provision'
