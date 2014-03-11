@@ -121,7 +121,7 @@ GIT
 GIT
   remote: git://github.com/rafaduran/openstack-provision
   ref: master
-  sha: 0d667431de53db90dd220572bb1295482084958a
+  sha: bb6374f71362346ad1ac3e735235a44256289f0c
   specs:
     rafaduran/openstack_provision (0.1.0)
 
