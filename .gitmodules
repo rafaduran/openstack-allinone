@@ -1,3 +1,6 @@
 [submodule "extra_modules/neutron"]
 	path = extra_modules/neutron
 	url = git://github.com/stackforge/puppet-neutron
+[submodule "extra_modules/openstack"]
+	path = extra_modules/openstack
+	url = https://github.com/stackforge/puppet-openstack.git
