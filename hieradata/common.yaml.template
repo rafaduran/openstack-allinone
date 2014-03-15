@@ -24,6 +24,7 @@ openstack::all::bridge_uplinks: br-ex:eth3
 openstack::all::tenant_network_type: local
 openstack::all::metadata_shared_secret:
 openstack::all::fixed_range: 10.0.0.0/24
+neutron::server::sql_connection: mysql://neutron:$password@%{ipaddress_eth1}/neutron?charset=utf8
 # rabbit
 openstack::all::rabbit_password:
 openstack::all::rabbit_user: openstack
